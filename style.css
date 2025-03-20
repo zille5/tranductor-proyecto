@@ -17,13 +17,24 @@ body {
 
 .header {
   background-color: #ffb6c1;
-  padding: 50px 120px;  /* Increased padding */
-  border-radius: 50px;
+  padding: 50px 120px; /* Reduced the top and bottom padding to reduce height*/
+  border-radius: 90px;
   margin-bottom: 60px;
   margin-top: 60px;
-  text-align: center;
+  text-align: left;  /* Align text left if needed */
   min-width: 1600px;
+
+  display: flex;
+  align-items: center;  /* Vertically center the content */
+  justify-content: flex-start;  /* Align content to the left */
 }
+
+.header img {
+  margin-right: 20px;  /* Optional: Adds spacing between logo and text */
+}
+
+
+
 
 .header h1 {
   font-size: 5rem;  /* Increased header font size */
@@ -39,6 +50,7 @@ body {
   grid-gap: 60px;  /* Increased gap between columns */
   margin-bottom: 60px;
   padding: 0 20px; /* Add some padding for spacing */
+  
 }
 
 .language-section {
